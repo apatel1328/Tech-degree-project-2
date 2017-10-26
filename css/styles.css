@@ -1,0 +1,210 @@
+/*GLOBAL*/
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color: #f8f8f8;
+	text-align: center;
+	font-family: Oswald;
+	color: #505050;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clearfix:after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+section h3, #mobile-footer-nav, .main-nav {
+	text-transform: uppercase;
+}
+
+
+.main-nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+.main-nav ul li {
+	background-color: white;
+	margin: 5px 5px;
+	padding: 10px 0;
+
+}
+
+@media (min-width: 320px) {
+
+	.hero img {
+		padding: 0 25px;
+		margin-top: 25px;
+	}
+
+	.hero p {
+		padding: 15px 25px;
+	}
+
+	.portfolio {
+		background-color: #ffffff;
+	}
+
+	.portfolio h3 {
+		padding-top: 25px;
+	}
+
+	.portfolio-block {
+		padding: 0 15px 20px;
+		
+	}
+
+	.portfolio-block h4 {
+		margin-bottom: 0;
+		font-size: 1.2em;
+	}
+
+
+	.portfolio-block p {
+		letter-spacing: .05em;
+		font-weight: 100;
+	}
+
+
+	#bottom-nav {
+		display: none;
+	}
+
+
+
+	#bottom-nav li {
+		list-style: none;
+	}
+
+	footer {
+			border-top: 1px solid lightgrey;
+	    	width: 95%;
+	    	margin: auto;
+		}
+
+	footer p:first-child {
+		float: left;
+		padding-top: 5px;
+		padding-left: 5px;
+	}
+
+	footer a {
+		float: right;
+		padding-top: 20px;
+		padding-right: 5px;
+	}
+}
+
+
+
+@media (min-width: 768px) {
+	.main-nav ul li {
+		display: inline-block;
+		background-color: transparent;
+	}
+
+	.hero {
+		padding-bottom: 25px;
+	}
+
+	.hero img {
+		float: right;
+		width: 40%;
+		padding-left: 0;
+	}
+
+	.hero p {
+		float: left;
+		width: 60%;
+		text-align: left;
+		font-size: 24px;
+	}
+
+	.portfolio {
+		padding: 5px;
+	}
+
+	.portfolio h3 {
+		padding-bottom: 25px;
+	}
+
+
+	.portfolio-block {
+		display: inline-block;
+    	width: 45%;
+	}
+
+	.contact {
+		padding: 25px;
+	}
+
+	.contact > p:nth-child(2) {
+		padding: 10px 150px;
+	}
+
+
+	#mobile-footer-nav {
+		display: none;
+	}
+
+	
+	#bottom-nav {
+		display: block;
+		float: right;
+		text-transform: uppercase;
+	}
+
+	#bottom-nav li {
+		display: inline-block;
+		padding: 20px 10px;
+	}
+
+	footer p:first-child {
+		padding: 40px 10px;
+	}
+
+}
+
+@media (min-width: 1024px) {
+
+	header h1 {
+		float: left;
+		padding: 25px;
+	}
+
+	.main-nav {
+		float:right;
+		padding: 25px;
+	}	
+
+	.portfolio-block {
+		width: 33%;
+		padding: 25px 10px;
+	}
+
+	.contact {
+		padding: 50px;
+	}
+
+	.contact p:nth-child(2) {
+		padding: 10px 250px;
+	}
+
+
+}
+
+
